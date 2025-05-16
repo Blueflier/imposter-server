@@ -1,0 +1,44 @@
+{
+    "questions": [
+      {
+        "id": "q1",
+        "normal": "What's your favorite thing to eat for breakfast?",
+        "imposter": "What's your favorite thing to drink in the morning?"
+      },
+      {
+        "id": "q2",
+        "normal": "Describe your ideal weekend activity.",
+        "imposter": "Describe your ideal weekday activity."
+      },
+      {
+        "id": "q3",
+        "normal": "If you could have any superpower, what would it be and why?",
+        "imposter": "If you could have any pet, real or imaginary, what would it be and why?"
+      },
+      {
+        "id": "q4",
+        "normal": "What's a small thing that makes you happy?",
+        "imposter": "What's a common annoyance for you?"
+      },
+      {
+        "id": "q5",
+        "normal": "What movie could you watch over and over again?",
+        "imposter": "What book could you read over and over again?"
+      },
+      {
+        "id": "q6",
+        "normal": "What is an item you can't live without when you travel?",
+        "imposter": "What is a place you dream of traveling to?"
+      },
+      {
+        "id": "q7",
+        "normal": "What's the best gift you've ever received?",
+        "imposter": "What's the best gift you've ever given?"
+      },
+      {
+        "id": "q8",
+        "normal": "What is your favorite season and why?",
+        "imposter": "What is your favorite holiday and why?"
+      }
+    ]
+  }
