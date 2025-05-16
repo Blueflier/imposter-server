@@ -366,12 +366,6 @@ io.on('connection', (socket) => {
 });
 
 
-// Fallback to serve index.html for any route not handled by API or static files
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'));
-});
-
-
 // Log startup configuration
 console.log('\n=== Server Configuration ===');
 console.log(`NODE_ENV: ${process.env.NODE_ENV || 'development'}`);
