@@ -372,6 +372,15 @@ app.get('*', (req, res) => {
 });
 
 
+// Log startup configuration
+console.log('\n=== Server Configuration ===');
+console.log(`NODE_ENV: ${process.env.NODE_ENV || 'development'}`);
+console.log(`PORT: ${PORT}`);
+console.log(`CORS Origin: ${io.opts.cors.origin}`);
+console.log(`Max Players: ${MAX_PLAYERS}`);
+console.log(`Min Players to Start: ${MIN_PLAYERS_TO_START}`);
+console.log('=========================\n');
+
 server.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
     console.log(`Frontend expected at http://localhost:3000 (if using CRA dev server)`);
